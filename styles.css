@@ -71,6 +71,10 @@ header {
   flex-wrap: wrap;
 }
 
+.hero-main {
+  font-size: 48px;
+}
+
 .hero-text {
   font-weight: 300;
 }
@@ -100,7 +104,9 @@ header {
 
 .info-section-content h2 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: #1F2937;
 }
 
 .info-imgs {
@@ -112,8 +118,10 @@ header {
 }
 
 .info-imgs img {
-  height: 150px;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .imgtext {
@@ -122,8 +130,10 @@ header {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 150px;
+  width: 200px;
   text-align: center;
+  color: #1F2937;
+  font-weight: 300;
 }
 
 footer {
